@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,yBAAyB,CAAA;EACrB,KAAK,EAAC,KAAK;EACX,MAAM,EAAE,gBAAgB;EACxB,OAAO,EAAC,GAAG;CAOd;;AAVD,AAKI,yBALqB,AAKpB,MAAM,CAAA;EACH,OAAO,EAAC,CAAC;CAEZ",
+    "sources": [
+        "TaskEdit.scss"
+    ],
+    "names": [],
+    "file": "TaskEdit.css"
+}

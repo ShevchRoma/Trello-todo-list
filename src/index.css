@@ -1,0 +1,53 @@
+*margin {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system,system-ui,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.trello {
+  position: absolute;
+  left: 13%;
+  top: 5.1%;
+  width: 1050px;
+  min-height: 90%;
+  border-radius: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#039bf3), to(#00bfff));
+  background: linear-gradient(#039bf3, #00bfff);
+  -webkit-box-shadow: 1px 2px 20px #c2bfbf;
+          box-shadow: 1px 2px 20px #c2bfbf;
+}
+
+.trello__sidebar1 {
+  position: relative;
+  background-color: #fff;
+  width: 285px;
+  min-height: 450px;
+  margin-top: 4.6%;
+  left: 8%;
+  border-radius: 12px;
+  border: 5px solid #b6b3b3;
+}
+
+.trello__tasks {
+  width: 500px;
+  height: 85%;
+  background-color: white;
+  position: absolute;
+  top: 7.2%;
+  left: 43%;
+  border-radius: 12px;
+  border: 5px solid rgba(53, 51, 51, 0.356);
+}
+/*# sourceMappingURL=index.css.map */

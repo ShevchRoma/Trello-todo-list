@@ -1,0 +1,115 @@
+{
+  "lists": [
+    {
+      "id": 1,
+      "name": "Продажа",
+      "colorId": 5,
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Машина",
+      "colorId": 8,
+      "active": false
+    },
+    {
+      "id": 3,
+      "name": "Call Suzanne",
+      "colorId": 3,
+      "active": false
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "listId": 2,
+      "text": "Поменять шины на зимние",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "listId": 2,
+      "text": "Заменить трансмиссионное масло",
+      "completed": true
+    },
+    {
+      "id": 3,
+      "listId": 2,
+      "text": "Купить правую противотуманную фару",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "listId": 2,
+      "text": "Заменить левый поворотник",
+      "completed": false
+    },
+    {
+      "listId": 1,
+      "text": "Повысить продажу икры к Новому Году",
+      "completed": false,
+      "id": 1
+    },
+    {
+      "listId": 1,
+      "text": "Продажа новогодних подарков",
+      "completed": false,
+      "id": 2
+    },
+    {
+      "listId": 1,
+      "text": "Продажа кассовыx аппаратов",
+      "completed": true,
+      "id": 3
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "hex": "#C9D1D3",
+      "name": "grey"
+    },
+    {
+      "id": 2,
+      "hex": "#42B883",
+      "name": "green"
+    },
+    {
+      "id": 3,
+      "hex": "#64C4ED",
+      "name": "blue"
+    },
+    {
+      "id": 4,
+      "hex": "#FFBBCC",
+      "name": "pink"
+    },
+    {
+      "id": 5,
+      "hex": "#B6E6BD",
+      "name": "lime"
+    },
+    {
+      "id": 6,
+      "hex": "#C355F5",
+      "name": "purple"
+    },
+    {
+      "id": 7,
+      "hex": "#110133",
+      "name": "black"
+    },
+    {
+      "id": 8,
+      "hex": "#FF6464",
+      "name": "red"
+    }
+  ],
+  "title": [
+    {
+      "id": 1,
+      "name": "К Новому Году",
+      "active": false
+    }
+  ]
+}

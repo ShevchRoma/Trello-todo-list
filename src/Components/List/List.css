@@ -1,0 +1,105 @@
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  font-weight: bold;
+  margin-bottom: 5px;
+  background: gainsboro;
+  padding: 20px 25px;
+  border-radius: 4px;
+  max-width: 160px;
+  cursor: pointer;
+}
+
+.list li:hover .list__remove-icon {
+  opacity: 0.5;
+}
+
+.list li span {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 0px 10px 0px 0px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 120px;
+  white-space: nowrap;
+}
+
+.list li:hover {
+  border: 1px solid green;
+}
+
+.list li.active {
+  background: rgba(7, 7, 7, 0.452);
+  padding: 20px 25px;
+  -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px solid black;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+  text-decoration: underline;
+  color: white;
+}
+
+.list__remove-icon {
+  opacity: 0;
+}
+
+i {
+  margin-right: 6px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.badge {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.badge--green {
+  background-color: green;
+}
+
+.badge--red {
+  background-color: red;
+}
+
+.badge--blue {
+  background-color: #4848f8;
+}
+
+.list__add-button {
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid rgba(27, 150, 27, 0.74);
+  background: rgba(27, 150, 27, 0.74);
+  padding: 3px;
+  color: rgba(27, 150, 27, 0.74);
+}
+
+.list__add-button svg path {
+  stroke: green;
+}
+
+.list__add-button:hover {
+  background-color: #03bd03;
+  color: white;
+}
+
+.list__add-button:hover svg path {
+  stroke: white;
+}
+/*# sourceMappingURL=List.css.map */
